@@ -6,7 +6,7 @@ The pipeline includes:
 
 1. PDF Text Extraction
 2. Text Cleaning & Preprocessing
-3. Chunking with Overlap
+3. Chunking 
 4. Sentence Transformer Embedding Generation
 5. FAISS Index Creation
 6. Multi-PDF Automated Pipeline Runner
@@ -19,13 +19,11 @@ The pipeline includes:
 
 ###  Clean text and remove noise
 
-###  Convert text into overlapping chunks
+###  Convert text into chunks
 
 ###  Generate embeddings using `all-MiniLM-L6-v2`
 
 ###  Store embeddings in a FAISS vector index
-
-###  Search-ready structured output
 
 ###  Fully automated folder-to-index pipeline
 
