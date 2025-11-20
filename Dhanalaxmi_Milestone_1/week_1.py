@@ -170,9 +170,10 @@ def run_pipeline_for_folder(pdf_folder):
 
 
 if __name__ == "__main__":
-    folder = "Visa_Eligibility"   # folder containing  visa PDFs
+    folder = "Data"   # folder containing  visa PDFs
 
     run_pipeline_for_folder(folder)
 
  
+
 
