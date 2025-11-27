@@ -12,7 +12,8 @@ from langchain_core.documents import Document
 # 1. CONFIGURE GEMINI API
 # ============================================================
 
-GEMINI_API_KEY = "AIzaSyAb_M_eCGWV6NkscoqsLaA0Kk8fnRHGisk"     # << put your Gemini API key
+GEMINI_API_KEY = ""     # << put your Gemini API key
 os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
 
 genai.configure(api_key=GEMINI_API_KEY)
+
