@@ -158,10 +158,14 @@ The sidebar allows users to switch between different sections of the app, includ
 
 ### Navigation Flow
 
-Sidebar Menu
+Sidebar 
+Menu
  ├── Home
+ 
  ├── Check Eligibility
+ 
  ├── History
+ 
  └── About
 
 Users can switch between pages without losing session data
